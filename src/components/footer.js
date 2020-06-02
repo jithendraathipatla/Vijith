@@ -11,7 +11,7 @@ const Footer = () => {
       <div css={fostyle}>
         <div>
           <TitleComponent title="Vijith Public School" color="#ffff" />
-          <p>wdfmdfng dfgdfgdd sfgdfg dfgdfgdfg dfgdfghkdfgdkhfgb dfhgkjdhfg hbjgasf</p>
+          <p>wdfmd dfgdf sfgdfg dfgdf dfgdfghkdfgdkhfgb dfhgkjdhfg hbjgasf</p>
         </div>
         <div>
           <TitleComponent title="Quick Links" color="#ffff" />
@@ -76,8 +76,9 @@ const last = css`
   color: #ffff;
   box-shadow: 0px 0px 7px 2px rgba(229, 220, 220, 0.52);
   padding-bottom: 2px;
+  padding-top:4px;
   span {
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 0.4px;
     font-family: cursive;
     padding-bottom: 5px;
@@ -90,7 +91,7 @@ const fostyle = css`
   padding: 10px 30px;
   display: grid;
   grid-template-columns: 5.3fr 1.7fr 2.2fr 2fr;
-  grid-gap:0px 90px;
+  grid-gap:0px 100px;
   justify-content: space-between;
   box-shadow: 0px 0px 2px 2px rgba(53, 51, 51, 0.68);
   background: #232f3e;
@@ -112,13 +113,13 @@ const fostyle = css`
   ul {
     margin-left: 17px;
     li {
-      margin-bottom: 3px;
+      margin-bottom: 5px;
       :hover {
         transform: translateY(-1px);
       }
       a {
         margin-bottom: 1px;
-        font-size: 14px;
+        font-size: 0.83em;
         text-decoration: none;
         color: white;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
