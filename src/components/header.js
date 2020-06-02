@@ -104,6 +104,9 @@ const links = css`
     z-index: 1;
     text-decoration: none;
     color: #875b28;
+    :hover{
+      color: burlywood;
+    }
   }
 `
 
