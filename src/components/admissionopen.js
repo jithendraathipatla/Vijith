@@ -56,7 +56,7 @@ a{
     text-decoration: none;
     :hover{
         text-decoration: underline;
-        transform: translateY(-1px) 
+        transform: translateY(-1px); 
     }
 }
 `

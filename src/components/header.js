@@ -101,12 +101,10 @@ const links = css`
     padding: 17px;
     font-size: 24px;
     letter-spacing: 0.4px;
-    color: rgba(255, 255, 255, 0.6);
     font-size: 1.125rem;
     line-height: 4rem;
     position: relative;
     z-index: 1;
-    border-bottom: 2px solid transparent;
     text-decoration: none;
     color: #875b28;
   }

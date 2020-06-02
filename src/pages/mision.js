@@ -5,7 +5,6 @@ const Mision = () => {
     return (
        <LayoutComponent>
         I am from the Mission Component
-       
        </LayoutComponent>
     );
 };
