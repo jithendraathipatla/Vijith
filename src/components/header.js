@@ -19,7 +19,7 @@ const Header = () => {
     <div>
       <ThemeContext.Consumer>
         {theme => (
-          <div css={theme.isdark === true ? header : header1}>
+          <div css={header}>
             <div css={links}>
               <div css={logo}>{offset > 0 ? <img src={Mainlogo} /> : null}</div>
               <div>
@@ -78,13 +78,7 @@ const header = css`
   box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.18);
 `
 
-const header1 = css`
-  display: flex;
-  justify-content: space-between;
-  box-shadow: 0px 0px 7px 8px rgba(0, 0, 0, 0.08);
-  background: white;
-  color: black;
-`
+
 
 const logo = css`
   img {
