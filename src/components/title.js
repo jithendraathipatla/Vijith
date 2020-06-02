@@ -12,8 +12,8 @@ const Title = (props) => {
 export default Title;
 
 const titlecom = css`
-    font-size: 18px;
-    letter-spacing: 0.4px;
+    font-size: 1em;
+    letter-spacing: 1px;
     line-height: 2rem;
     position: relative;
     z-index: 1;
