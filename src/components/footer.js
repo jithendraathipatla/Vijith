@@ -3,7 +3,9 @@ import {css} from '@emotion/core';
 import TitleComponent from '../components/title';
 
 const Footer = () => {
+    const year = new Date().getFullYear();
     return (
+       <div style={{background:"#232F3E"}}>
         <div css={fostyle}>
            <div>
             <TitleComponent title="Vijith Public School" color="#ffff"/>  
@@ -11,7 +13,6 @@ const Footer = () => {
             <span>ljrehgekjghdkjfg jkfshdfkjsdf sdkhgsggg sskjdfhsdf</span>  
             <span>ljrehgekjghdkjfg jkfshdfkjsdf sdkhgsggg sskjdfhsdf</span>         
            </div>
-
            <div>
            <TitleComponent title="Quick Links" color="#ffff"/>
            fglkdfgk           
@@ -25,10 +26,25 @@ const Footer = () => {
          <TitleComponent title="Contact US" color="#ffff"/>           
         </div>
         </div>
+        <hr/>
+        <div css={last}>
+         <span>@{year} All rights reserved</span>
+        </div>
+       </div> 
     );
 };
 
 export default Footer;
+
+const last = css`
+text-align: center;
+color: #ffff;
+box-shadow:0px 0px 7px 2px rgba(229, 220, 220, 0.52);
+span{
+    font-size:11px;
+    letter-spacing:0.4px;
+}
+`
 
 const fostyle = css`
 padding:10px 30px;
@@ -40,8 +56,11 @@ color:#ffff;
 span{
     display: block;
 }
-font-size: 13px;
-    line-height: 20px;
-    letter-spacing: 0.5px;
+font-size: 12px;
+    line-height: 26px;
+    -webkit-letter-spacing: 0.5px;
+    -moz-letter-spacing: 0.5px;
+    -ms-letter-spacing: 0.5px;
+    letter-spacing: 1.5px;
 
 `
