@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import Mainlogo from "../images/vitithlogo.jpeg"
 import { css } from "@emotion/core"
+import './layout.css'
 import ThemeContext from "../context/Themecontext"
 import { Link } from "gatsby"
 
@@ -23,10 +24,10 @@ const Header = () => {
             <div css={links}>
               <div css={logo}>{offset > 0 ? <img src={Mainlogo} /> : null}</div>
               <div>
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/vision">Vision</Link>
-                <Link to="/mision">Mission</Link>
+                <Link to="/" activeClassName="active">Home</Link>
+                <Link to="/about" activeClassName="active">About</Link>
+                <Link to="/vision" activeClassName="active">Vision</Link>
+                <Link to="/mision" activeClassName="active">Mission</Link>
               </div>
               {offset === 0 ? (
                 <div
@@ -34,10 +35,10 @@ const Header = () => {
                 ></div>
               ) : null}
               <div>
-                <Link to="/mision">Admissions</Link>
-                <Link to="/about">Faculty</Link>
-                <Link to="/vision">Facilities</Link>
-                <Link to="/mision">Contact</Link>
+                <Link to="/admissions" activeClassName="active">Admissions</Link>
+                <Link to="/faculty" activeClassName="active">Faculty</Link>
+                <Link to="/facilities" activeClassName="active">Facilities</Link>
+                <Link to="/contact" activeClassName="active">Contact</Link>
               </div>
             </div>
             {offset === 0 ? (
@@ -93,7 +94,8 @@ const links = css`
   display: flex;
   justify-content: space-between;
   a {
-    padding: 17px;
+    margin: 17px;
+    padding-bottom:20px;
     font-size: 24px;
     letter-spacing: 0.4px;
     font-size: 1.125rem;

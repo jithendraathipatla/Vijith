@@ -662,3 +662,7 @@ pre tt:after {
 .MuiTab-root{
   font-size: 0.775rem;
 }
+
+.active{
+  border-bottom: 2px solid #e11d92;
+}
