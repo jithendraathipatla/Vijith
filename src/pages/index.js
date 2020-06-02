@@ -32,7 +32,6 @@ export default IndexPage
 const aftertheslider = css`
 padding: 3%;
 margin-top:-30px;
-
 `
  
 const slider = css`

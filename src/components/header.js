@@ -62,6 +62,7 @@ const beforescroll = css`
     margin-left: 72.9%;
     box-shadow: 0px 0px 8px 2px rgb(180, 131, 163);
     border-radius: 50%;
+    position:relative;
   }
 `
 
