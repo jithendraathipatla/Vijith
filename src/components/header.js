@@ -1,42 +1,114 @@
+import React, { useEffect, useState } from "react"
+import Mainlogo from "../images/vitithlogo.jpeg"
+import { css } from "@emotion/core"
+import ThemeContext from "../context/Themecontext"
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+const Header = () => {
+  const [offset, setOffset] = useState(0)
+
+  useEffect(() => {
+    window.onscroll = () => {
+      setOffset(window.pageYOffset)
+    }
+  }, [])
+
+  console.log(offset)
+
+  return (
+    <div>
+      <ThemeContext.Consumer>
+        {theme => (
+          <div css={theme.isdark === true ? header : header1}>
+            <div css={links}>
+              <div css={logo}>{offset > 0 ? <img src={Mainlogo} /> : null}</div>
+              <div>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/vision">Vision</Link>
+                <Link to="/mision">Mission</Link>
+              </div>
+              {offset === 0 ? (
+                <div
+                  style={{ padding: "30px 245px", textAlign: "center" }}
+                ></div>
+              ) : null}
+              <div>
+                <Link to="/mision">Admissions</Link>
+                <Link to="/about">Faculty</Link>
+                <Link to="/vision">Facilities</Link>
+                <Link to="/mision">Contact</Link>
+              </div>
+            </div>
+            {offset === 0 ? (
+              <div css={beforescroll}>
+                <img src={Mainlogo} />
+              </div>
+            ) : null}
+          </div>
+        )}
+      </ThemeContext.Consumer>
     </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+  )
 }
 
 export default Header
+
+const beforescroll = css`
+  position: absolute;
+  top: 0%;
+  img {
+    width: 20%;
+    margin-left: 72.9%;
+    box-shadow: 0px 0px 8px 2px rgb(180, 131, 163);
+    border-radius: 50%;
+  }
+`
+
+const header = css`
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 40;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.18);
+`
+
+const header1 = css`
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 7px 8px rgba(0, 0, 0, 0.08);
+  background: white;
+  color: black;
+`
+
+const logo = css`
+  img {
+    width: 14%;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-left: 7px;
+  }
+`
+
+const links = css`
+  display: flex;
+  justify-content: space-between;
+  a {
+    padding: 17px;
+    font-size: 24px;
+    letter-spacing: 0.4px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.125rem;
+    line-height: 4rem;
+    position: relative;
+    z-index: 1;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    color: #875b28;
+  }
+`
+
