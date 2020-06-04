@@ -59,7 +59,6 @@ form{
  label{
      display: block;
      margin-bottom:10px;
-     font-size:22px;
  }
 
  input{
