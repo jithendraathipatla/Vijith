@@ -56,6 +56,9 @@ box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.23);
     transform: translateY(-2px);
     cursor: pointer;
   }
+  @media(max-width:600px){
+    margin-bottom: 23px;
+  }
 `
 
 const imagesingrid = css`
@@ -67,5 +70,8 @@ const imagesingrid = css`
   }
   span {
     padding: 0px 20px;
+  }
+  @media(max-width:600px){
+    display:block;
   }
 `

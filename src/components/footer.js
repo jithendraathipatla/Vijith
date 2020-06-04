@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <TitleComponent title="Follows Us on" color="#ffff" />
+          <TitleComponent title="Follows Us" color="#ffff" />
           <div css={icons}>
             <FaFacebook />
             <FaTwitter />
@@ -94,17 +94,20 @@ const fostyle = css`
   box-shadow: 0px 0px 2px 2px rgba(53, 51, 51, 0.68);
   background: #232f3e;
   color: #ffff;
+  @media(max-width:600px){
+    display:none;
+  }
   p {
     display: block;
-    font-size: 0.8em;
-    text-align: justify;
+    font-size: 0.90em;
+    text-align: center;
+    letter-spacing: 0.5px;
   }
   line-height: 22px;
   -webkit-letter-spacing: 0.5px;
   -moz-letter-spacing: 0.5px;
   -ms-letter-spacing: 0.5px;
   letter-spacing: 0.2px;
-
   ul {
     margin-left: 17px;
     li {
@@ -114,9 +117,10 @@ const fostyle = css`
       }
       a {
         margin-bottom: 1px;
-        font-size: 0.83em;
+        font-size: 0.90em;
         text-decoration: none;
         color: white;
+        letter-spacing: 0.5px;
        
         :hover {
           text-decoration: underline;

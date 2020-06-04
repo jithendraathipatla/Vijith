@@ -50,4 +50,7 @@ position: absolute;
 right: 2%;
 top: 32%;
 z-index: 10;
+@media(max-width:600px){
+  top:10%;
+}
 `

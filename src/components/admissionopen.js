@@ -40,6 +40,9 @@ h4{
    
     margin-right: 14px;
     margin-bottom: 6px;
+    @media(max-width:600px){
+        font-size:10px;
+    }
     
 }
 color: white;
@@ -58,6 +61,10 @@ a{
     :hover{
         text-decoration: underline;
         transform: translateY(-1px); 
+    }
+    @media(max-width:600px){
+        font-size:7px;
+        margin-top:-8px;
     }
 }
 `
