@@ -1,9 +1,10 @@
 import React from 'react';
 import {css} from '@emotion/core'
+import '../components/layout.css'
 
 const Admissionopen = () => {
     return (
-        <div css={admission}>
+        <div css={admission} className="clip-animation">
            
            <h4>Admissions are in Progress: (2020 - 2021)</h4>
            <div style={{textAlign:"center"}}>
@@ -42,10 +43,10 @@ h4{
     
 }
 color: white;
-background: #22272cb3;
-padding: 15px 1px 14px 20px;
-border-radius: 11px;
-font-size:26px;
+    background: #e11d92b8;
+    padding: 80px 1px 14px 92px;
+    border-radius: 11px;
+    font-size: 26px;
 a{
     padding-right:10px;
     font-size:15px;

@@ -1,13 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SLidercomonent from "../components/slider"
 import Admissionopencomponent from '../components/admissionopen'
 import {css} from '@emotion/core';
 import Tabscontainercomponent from '../components/tabscontainer'
 import Titlecomponent from '../components/title'
+import Visioncomponent from '../components/vision'
+import Loationcomponent from '../components/location'
 
-import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
@@ -17,13 +17,20 @@ const IndexPage = () => (
      <div css={sliderupon}>
      <Admissionopencomponent/>
      </div>
-    
+     <Visioncomponent/>
+
+     <hr/>
+
      <div css={aftertheslider}>
      <div style={{textAlign:"center"}}>
      <Titlecomponent title="Gallery"/>
      </div>
      <Tabscontainercomponent/>
      </div>
+     <hr/>
+
+     <Loationcomponent/>
+
   </Layout>
 )
 
@@ -40,7 +47,7 @@ const slider = css`
 
 const sliderupon = css`
 position: absolute;
-right: 3%;
-top: 37%;
+right: 2%;
+top: 32%;
 z-index: 10;
 `

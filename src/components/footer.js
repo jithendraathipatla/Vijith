@@ -60,6 +60,7 @@ const icons = css`
   svg {
     font-size: 22px;
     margin-right: 15px;
+    margin-top:4px;
     :hover {
       border: 1px solid #eeee;
       border-radius: 25%;
@@ -80,11 +81,8 @@ const last = css`
   span {
     font-size: 14px;
     letter-spacing: 0.4px;
-    font-family: cursive;
     padding-bottom: 5px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
+     }
 `
 
 const fostyle = css`
@@ -100,15 +98,12 @@ const fostyle = css`
     display: block;
     font-size: 0.8em;
     text-align: justify;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
-      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   }
   line-height: 22px;
   -webkit-letter-spacing: 0.5px;
   -moz-letter-spacing: 0.5px;
   -ms-letter-spacing: 0.5px;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.2px;
 
   ul {
     margin-left: 17px;
@@ -122,9 +117,7 @@ const fostyle = css`
         font-size: 0.83em;
         text-decoration: none;
         color: white;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-          Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
-          Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+       
         :hover {
           text-decoration: underline;
         }
