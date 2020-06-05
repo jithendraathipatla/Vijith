@@ -57,21 +57,46 @@ form{
     margin-bottom:0px;
 }
  label{
-     display: block;
-     margin-bottom:10px;
+    display: block;
+    font-size: 14px;
+    color: #3c4257;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
  }
 
  input{
      margin-bottom:20px;
      width:100%;
-     font-size:18px;
-     padding:10px 20px 1px 2px;
+     display: block;
+     padding: 15px 4px 8px 4px;
+     border: 1px solid #917878a3;
+     width: auto;
+     margin-top: 11px;
+     border-radius: 5px;
+     -webkit-letter-spacing: 1px;
+     -moz-letter-spacing: 1px;
+     -ms-letter-spacing: 1px;
+     letter-spacing: 1px;
+     line-height: 14px;
+     width: -webkit-fill-available;
  }
 
  select{
     margin-bottom:20px;
     width:100%;
-    padding:10px 20px 1px 2px;
+    display: block;
+    padding: 15px 4px 8px 4px;
+    border: 1px solid #917878a3;
+    width: auto;
+    margin-top: 11px;
+    border-radius: 5px;
+    -webkit-letter-spacing: 1px;
+    -moz-letter-spacing: 1px;
+    -ms-letter-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 14px;
+    width: -webkit-fill-available;
 }
 box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.21);
     background-color: white;
