@@ -58,10 +58,11 @@ form{
 }
  label{
     display: block;
-    font-size: 14px;
+    font-size: 16px;
     color: #3c4257;
-    font-weight: 500;
+    font-weight: 550;
     margin-top: 10px;
+    letter-spacing: 0.7px;
     margin-bottom: 10px;
  }
 
