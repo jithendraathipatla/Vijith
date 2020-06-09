@@ -7,6 +7,7 @@ import Tabscontainercomponent from '../components/tabscontainer'
 import Titlecomponent from '../components/title'
 import Visioncomponent from '../components/vision'
 import Loationcomponent from '../components/location'
+import SpecialFeaturesComponent from '../components/silentfeatures';
 
 
 const IndexPage = () => (
@@ -18,6 +19,10 @@ const IndexPage = () => (
      <Admissionopencomponent/>
      </div>
      <Visioncomponent/>
+
+     <hr/>
+
+     <SpecialFeaturesComponent/>
 
      <hr/>
 
