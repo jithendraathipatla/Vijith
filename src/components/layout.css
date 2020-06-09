@@ -717,4 +717,5 @@ pre tt:after {
 
 .MuiFormControl-root {
   width: inherit;
+  min-width: -webkit-fill-available;
 }
