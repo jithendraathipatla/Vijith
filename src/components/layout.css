@@ -717,5 +717,10 @@ pre tt:after {
 
 .MuiFormControl-root {
   width: inherit;
-  min-width: -webkit-fill-available;
+  min-width: -webkit-fill-available !important;
+}
+
+.jss9 > * {
+  width: auto;
+  margin: 8px;
 }
