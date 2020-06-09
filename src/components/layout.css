@@ -721,6 +721,6 @@ pre tt:after {
 }
 
 .jss9 > * {
-  width: auto;
+  width: auto !important;
   margin: 8px;
 }
