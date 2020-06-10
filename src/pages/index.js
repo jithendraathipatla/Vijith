@@ -26,12 +26,10 @@ const IndexPage = () => (
 
     <hr />
 
-
+    <SpecialFeaturesComponent />
 
     <hr style={{marginBottom:"0px"}} />
 
-    <UniquePrinciplesComponent/>
-    <hr/>
     <div css={aftertheslider}>
       <div style={{ textAlign: "center" }}>
         <Titlecomponent title="Gallery" />
