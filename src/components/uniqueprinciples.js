@@ -56,9 +56,13 @@ const fine = css`
   position: absolute;
   top: 9%;
   left: 0px;
+  width:100%;
 `
 const svvb = css`
  width:30%;
+ @media(max-width:600px){
+     width: 100%;
+ }
 `
 
 const unique = css`
@@ -69,6 +73,9 @@ const unique = css`
     margin-left: 40.5%;
     margin-top: 13px;
     margin-bottom: 0px;
+    @media(max-width:600px){
+        margin-left:30px;
+    }
     span {
       display: flex;
       svg {
