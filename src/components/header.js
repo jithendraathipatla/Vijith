@@ -47,7 +47,7 @@ const Header = () => {
                   ></div>
                 ) : null}
                 <div>
-                  <Link to="/admissions" activeClassName="active">
+                  <Link to="/admission" activeClassName="active">
                     Admissions
                   </Link>
                   <Link to="/faculty" activeClassName="active">

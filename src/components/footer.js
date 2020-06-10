@@ -11,7 +11,7 @@ const Footer = () => {
       <div css={fostyle}>
         <div>
           <TitleComponent title="Vijith Public School" color="#ffff" />
-          <p>wdfmd dfgdf sfgdfg dfgdf dfgdfghkdfgdkhfgb dfhgkjdhfg hbjgasf</p>
+          <span style={{fontFamily:"cursive"}}>27-147/3, Ram Nagar Colony, <br/>Chittoor, Andhra Pradesh 517002</span>
         </div>
         <div>
           <TitleComponent title="Quick Links" color="#ffff" />
@@ -82,6 +82,7 @@ const last = css`
     font-size: 14px;
     letter-spacing: 0.4px;
     padding-bottom: 5px;
+    font-family:cursive;
      }
 `
 
@@ -94,14 +95,13 @@ const fostyle = css`
   box-shadow: 0px 0px 2px 2px rgba(53, 51, 51, 0.68);
   background: #232f3e;
   color: #ffff;
+  font-family: cursive;
   @media(max-width:600px){
     display:none;
   }
-  p {
-    display: block;
-    font-size: 0.90em;
-    text-align: center;
-    letter-spacing: 0.5px;
+  span {
+    font-size: 16px;
+    letter-spacing: 0.8px;
   }
   line-height: 22px;
   -webkit-letter-spacing: 0.5px;

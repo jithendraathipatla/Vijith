@@ -21,4 +21,5 @@ const titlecom = css`
     color: #e11d92;
     margin-top:0px;
     text-transform: uppercase;
+   
 `

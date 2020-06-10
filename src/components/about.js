@@ -42,10 +42,12 @@ const About = () => {
 export default About
 
 const main = css`
-  margin: 0px 3%;
+  margin: 0px 4%;
+  margin-top:1%;
   padding-bottom: 30px;
   text-align: justify;
   span{
     letter-spacing: 0.3px;
+    margin-top:10px;
   }
 `

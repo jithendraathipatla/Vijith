@@ -21,10 +21,10 @@ const Vision = () => {
 export default Vision
 
 const vision = css`
-  margin: 26px 3%;
+  margin: 0px 3%;
   margin-top: 0px;
-  padding: 20px;
-  padding-bottom: 0px;
+  padding: 0px 20px;
+  padding-bottom: 30px;
   text-align: justify;
   border-radius: 10px;
   span {

@@ -9,6 +9,7 @@ import Visioncomponent from "../components/vision"
 import Loationcomponent from "../components/location"
 import SpecialFeaturesComponent from "../components/silentfeatures"
 import AboutUsComponent from "../components/about"
+import UniquePrinciplesComponent from '../components/uniqueprinciples'
 
 const IndexPage = () => (
   <Layout>
@@ -18,14 +19,19 @@ const IndexPage = () => (
     <div css={sliderupon}>
       <Admissionopencomponent />
     </div>
+    <AboutUsComponent />
+
+    <hr />
     <Visioncomponent />
 
     <hr />
 
     <SpecialFeaturesComponent />
 
-    <hr />
+    <hr style={{marginBottom:"0px"}} />
 
+    <UniquePrinciplesComponent/>
+    <hr/>
     <div css={aftertheslider}>
       <div style={{ textAlign: "center" }}>
         <Titlecomponent title="Gallery" />
@@ -34,9 +40,7 @@ const IndexPage = () => (
     </div>
     <hr />
 
-    <AboutUsComponent />
-
-    <hr />
+    
 
     <Loationcomponent />
   </Layout>
