@@ -26,7 +26,7 @@ const IndexPage = () => (
 
     <hr />
 
-    <SpecialFeaturesComponent />
+
 
     <hr style={{marginBottom:"0px"}} />
 
