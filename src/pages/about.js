@@ -1,15 +1,25 @@
 import React from "react"
+import {css} from '@emotion/core';
 import Layoutcomponent from "../components/layout"
 import Loationcomponent from '../components/location'
+import Aboutuscomponent from '../components/about'
 
 const About = () => {
   return (
     <Layoutcomponent>
-      <span>I am from about us Page</span>
+      <div css={about}>
+       <Aboutuscomponent/>
+      </div>
       <hr />
       <Loationcomponent />
     </Layoutcomponent>
   )
 }
 
-export default About
+export default About;
+
+const about = css`
+ margin-top:13%;
+`
+
+
