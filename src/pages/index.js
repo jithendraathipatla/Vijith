@@ -13,11 +13,13 @@ import UniquePrinciplesComponent from '../components/uniqueprinciples'
 
 const IndexPage = () => (
   <Layout>
+    <div>
     <div css={slider}>
       <SLidercomonent />
     </div>
     <div css={sliderupon}>
       <Admissionopencomponent />
+    </div>
     </div>
     <AboutUsComponent />
 
