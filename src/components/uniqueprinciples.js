@@ -61,7 +61,7 @@ const fine = css`
 const svvb = css`
  width:23%;
  @media(max-width:600px){
-     width: 100%;
+     width: 73%;
  }
 `
 
@@ -74,7 +74,7 @@ const unique = css`
     margin-top: 13px;
     margin-bottom: 0px;
     @media(max-width:600px){
-        margin-left:30px;
+        margin-left:43px;
     }
     span {
       display: flex;
