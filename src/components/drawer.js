@@ -49,7 +49,7 @@ export default function SwipeableTemporaryDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List css={buttonlist}>{
-        [{name:'Home', link:"/"}, {name:'About',link:"/about"}, {name:'Vision', link:"/vision"}, {name:'Mission', link:"/mission"}, {name:'Admissions', link:"/admission"}, {name:'Faculty' , link:"/faculty"}, {name:'Facilities', link:"/facilities"}, {name:'Contact', link:"/contact"}].map((text, index) => (
+        [{name:'Home', link:"/"}, {name:'About',link:"/about"}, {name:'Vision', link:"/vision"}, {name:'Mission', link:"/mision"}, {name:'Admissions', link:"/admission"}, {name:'Faculty' , link:"/faculty"}, {name:'Facilities', link:"/facilities"}, {name:'Contact', link:"/contact"}].map((text, index) => (
          <ListItem button key={text}>
          <Link to={text.link}><ListItemText primary={text.name}/></Link>
           </ListItem>
