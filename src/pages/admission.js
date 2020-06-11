@@ -6,7 +6,7 @@ import LayoutComponent from '../components/layout';
 const Admission = () => {
     return (
         <LayoutComponent>
-          <AdmisionComponent/>
+          
           <hr/>
           <LocationComponent/>
         </LayoutComponent>
