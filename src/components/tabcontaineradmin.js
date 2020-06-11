@@ -6,6 +6,7 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import StudentRegisterationformcomponent from '../components/studentregistrationform';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -76,10 +77,10 @@ export default function ScrollableTabsButtonAuto() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-      
+       <StudentRegisterationformcomponent/>
       </TabPanel>
       <TabPanel value={value} index={1}>
-     
+      <h1>Student Details will be shown up here</h1>
       </TabPanel>
       <TabPanel value={value} index={2}>
         

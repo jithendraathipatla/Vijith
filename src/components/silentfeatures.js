@@ -123,7 +123,7 @@ const main = css`
   }
 `
 const one = css`
-  flex: 5;
+  flex: 7;
 `
 const two = css`
   flex: 4;

@@ -1,49 +1,40 @@
 import React from "react"
 import { css } from "@emotion/core"
 
-import Titlecomponent from "../components/title"
-
-const Form = () => {
-  const handelcontactform = () => {
-    console.log("hi")
-  }
+const Studentregistrationform = () => {
   return (
-    <div css={contact}>
-      <div style={{ textAlign: "center" }}>
-        <Titlecomponent title="Admission form" />
-      </div>
+    <div>
       <form>
-        <label class="label is-small">Your Name</label>
+        <label class="label is-small">Enter Parent Name</label>
         <div className="field">
           <div className="control">
             <input
               className="input is-small"
               type="text"
-              placeholder="Your Name"
+              placeholder="Name of the parent"
             />
           </div>
         </div>
-        <label class="label is-small">Your Emailid</label>
+        <label class="label is-small">Parents what`s app Number</label>
         <div className="field">
           <div className="control">
             <input
               className="input is-small"
               type="text"
-              placeholder="Your Emailid"
+              placeholder="What`s app Number"
             />
           </div>
         </div>
-        <label class="label is-small">Your Phone Number</label>
+        <label class="label is-small">Parents phone Number</label>
         <div className="field">
           <div className="control">
             <input
               className="input is-small"
               type="text"
-              placeholder="Your Phone number"
+              placeholder="Phone number"
             />
           </div>
         </div>
-
 
         <label class="label is-small">Name of the child</label>
         <div className="field">
@@ -74,7 +65,22 @@ const Form = () => {
 
         <br />
         <br />
-        <div style={{ textAlign: "center" }}>
+        
+        <label class="label is-small">Acadamic year:</label>
+        <div class="select is-small">
+          <select>
+            <option>2020 - 2021</option>
+            <option>2021 - 2022</option>
+            <option>2022 - 2023</option>
+            <option>2023 - 2024</option>
+            <option>2024 - 2025</option>
+            <option>2025 - 2026</option>
+          </select>
+        </div>
+
+        <br />
+        <br />
+        <div style={{ textAlign: "left" }}>
           <button type="submit" class="button is-small is-link">
             Submit
           </button>
@@ -84,20 +90,4 @@ const Form = () => {
   )
 }
 
-export default Form
-
-
-const contact = css`
-  margin: 20px 30%;
-  margin-top: 10%;
-  form {
-    margin-bottom: 0px;
-  }
-  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.21);
-  background-color: white;
-  padding: 18px;
-  @media(max-width:600px){
-    margin: 20px 4%;
-    margin-top: 14%;
-  }
-`
+export default Studentregistrationform
