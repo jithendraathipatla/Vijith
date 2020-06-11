@@ -13,13 +13,11 @@ import UniquePrinciplesComponent from '../components/uniqueprinciples'
 
 const IndexPage = () => (
   <Layout>
-    <div>
     <div css={slider}>
       <SLidercomonent />
     </div>
     <div css={sliderupon}>
       <Admissionopencomponent />
-    </div>
     </div>
     <AboutUsComponent />
 
@@ -35,7 +33,13 @@ const IndexPage = () => (
     <UniquePrinciplesComponent/>
     <hr/>
 
-   
+    <div css={aftertheslider}>
+      <div style={{ textAlign: "center" }}>
+        <Titlecomponent title="Gallery" />
+      </div>
+      <Tabscontainercomponent />
+    </div>
+    <hr/>
 
     
 
@@ -45,7 +49,10 @@ const IndexPage = () => (
 
 export default IndexPage
 
-
+const aftertheslider = css`
+  padding: 3%;
+  margin-top: -30px;
+`
 
 const slider = css`
   position: relative;
