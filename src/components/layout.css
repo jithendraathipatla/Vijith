@@ -695,32 +695,3 @@ pre tt:after {
   }
 }
 
-.makeStyles-root-9 > * {
-  width: -webkit-fill-available !important;
-  margin: 8px;
-}
-
-.MuiInputLabel-formControl {
-  top: 0;
-  left: 0;
-  position: absolute;
-  font-size: small !important;
-}
-
-.MuiOutlinedInput-input {
-  padding: 10px !important;
-}
-
-.MuiSelect-select {
-  font-size: small !important;
-}
-
-.MuiFormControl-root {
-  width: inherit;
-  min-width: -webkit-fill-available !important;
-}
-
-.jss9 > * {
-  width: auto !important;
-  margin: 8px;
-}
