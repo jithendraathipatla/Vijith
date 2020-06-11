@@ -17,7 +17,7 @@ export default Admin;
 
 const admintab = css`
   margin:0px 10%;
-  margin-top:10%;
+  margin-top:13%;
   @media(max-width:600px){
     margin-top:20%;   
   }
