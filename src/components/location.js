@@ -15,7 +15,7 @@ const Location = () => {
           </div>
           <div css={thirs}>
             <div style={{textAlign:"center"}}><TitleComponent title="Contact Us"/></div>
-            
+            <FormComponent/>
           </div>
         </div>
     )

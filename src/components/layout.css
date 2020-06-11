@@ -1,5 +1,5 @@
 html {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+ 
   letter-spacing: 0;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -8,7 +8,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family:"Roboto", "Helvetica", "Arial", sans-serif !important;
+  
 }
 
 article,

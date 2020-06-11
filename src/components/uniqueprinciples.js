@@ -59,7 +59,7 @@ const fine = css`
   width:100%;
 `
 const svvb = css`
- width:30%;
+ width:23%;
  @media(max-width:600px){
      width: 100%;
  }

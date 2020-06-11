@@ -4,7 +4,7 @@ import {css} from '@emotion/core'
 const Title = (props) => {
     return (
         <div css={titlecom}>
-           <span style={{color: props.color}}>{props.title}</span> 
+           <span style={{color: props.color, fontWeight:"500"}}>{props.title}</span> 
         </div>
     );
 };
