@@ -14,7 +14,7 @@ const Admissionopen = () => {
            <div style={{display:"flex"}}>
            <h4>Please contact us at:</h4>
            <a href="tel:+917893531408">7893531408</a>
-           <span style={{marginRight:"10px", marginTop:"-2px"}}> / </span>
+           <span style={{marginRight:"10px", marginTop:"-14px"}}> / </span>
            <a href="tel:+917893531418">7893531418</a>
            </div>
            
@@ -40,6 +40,7 @@ h4{
    
     margin-right: 14px;
     margin-bottom: 6px;
+    font-size: large;
     @media(max-width:600px){
         font-size:10px;
     }

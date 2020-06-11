@@ -11,7 +11,7 @@ const Footer = () => {
       <div css={fostyle}>
         <div>
           <TitleComponent title="Vijith Public School" color="#ffff" />
-          <span>27-147/3, Ram Nagar Colony, <br/>Chittoor, Andhra Pradesh 517002</span>
+          <span>27-147/3, Ram Nagar Colony,Chittoor, Andhra Pradesh  <br/> 517002</span>
         </div>
         <div>
           <TitleComponent title="Quick Links" color="#ffff" />
