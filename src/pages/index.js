@@ -28,7 +28,10 @@ const IndexPage = () => (
 
     <SpecialFeaturesComponent />
 
-    <hr style={{marginBottom:"0px"}} />
+    <hr style={{marginBottom:"10px"}} />
+
+    <UniquePrinciplesComponent/>
+    <hr/>
 
     <div css={aftertheslider}>
       <div style={{ textAlign: "center" }}>
@@ -36,7 +39,7 @@ const IndexPage = () => (
       </div>
       <Tabscontainercomponent />
     </div>
-    <hr />
+    <hr/>
 
     
 

@@ -695,7 +695,7 @@ pre tt:after {
   }
 }
 
-/* .makeStyles-root-9 > * {
+.makeStyles-root-9 > * {
   width: -webkit-fill-available !important;
   margin: 8px;
 }
@@ -723,4 +723,4 @@ pre tt:after {
 .jss9 > * {
   width: auto !important;
   margin: 8px;
-} */
+}
