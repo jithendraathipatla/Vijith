@@ -695,3 +695,11 @@ pre tt:after {
   }
 }
 
+.jss9 {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1199;
+  position: inherit;
+}
+
