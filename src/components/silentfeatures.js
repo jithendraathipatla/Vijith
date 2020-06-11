@@ -26,13 +26,12 @@ const Silentfeatures = () => {
             </li>
             <li>
               {" "}
-              <FaCheckCircle /> Special Emphasis on Communication Skills in
-              English
+              <FaCheckCircle /> Special Emphasis on Communication Skills 
             </li>
             <li>
               {" "}
               <FaCheckCircle />
-              Specially Trained, Highly Educated Faculty & Management Team
+               Highly Skilled Faculty & Management Team
             </li>
             <li>
               {" "}
@@ -73,7 +72,7 @@ const Silentfeatures = () => {
             </li>
             <li>
               {" "}
-              <FaCheckCircle /> Safe, Efficient & Reliable Transportation
+              <FaCheckCircle /> Safe & Reliable Transportation
               Available
             </li>
           </ul>
@@ -112,6 +111,11 @@ const main = css`
     font-size: 18px;
     letter-spacing: 0.3px;
     list-style: none;
+    @media(max-width:600px){
+      font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    }
     svg {
       color: #875b28;
       margin-right: 10px;
