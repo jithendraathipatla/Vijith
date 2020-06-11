@@ -53,6 +53,7 @@ const uniqueprinciples = () => {
 export default uniqueprinciples
 
 const fine = css`
+  position: absolute;
   top: 9%;
   left: 0px;
   width:100%;
@@ -65,6 +66,7 @@ const svvb = css`
 `
 
 const unique = css`
+  position: absolute;
   width: 100%;
   ul {
     list-style: none;
@@ -85,5 +87,5 @@ const unique = css`
 `
 
 const abcd = css`
-
+  position: relative;
 `
