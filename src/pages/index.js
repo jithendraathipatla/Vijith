@@ -33,13 +33,7 @@ const IndexPage = () => (
     <UniquePrinciplesComponent/>
     <hr/>
 
-    <div css={aftertheslider}>
-      <div style={{ textAlign: "center" }}>
-        <Titlecomponent title="Gallery" />
-      </div>
-      <Tabscontainercomponent />
-    </div>
-    <hr/>
+   
 
     
 
@@ -49,10 +43,7 @@ const IndexPage = () => (
 
 export default IndexPage
 
-const aftertheslider = css`
-  padding: 3%;
-  margin-top: -30px;
-`
+
 
 const slider = css`
   position: relative;
